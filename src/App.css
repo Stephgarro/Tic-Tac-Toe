@@ -23,7 +23,7 @@ body {
   border: 3px solid #ebc719;
   padding: 38px;
   border-radius: 28px;
-  width: 50%;
+  width: 54%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -68,69 +68,3 @@ body {
 }
 
 
-/* Estilos generales */
-
-
-.game {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.game-info {
-  margin-top: 10px;
-}
-
-/* Estilos generales */
-
-/* ... (otros estilos) ... */
-
-/* Estilos para dispositivos móviles (375px a 480px) */
-@media only screen and (min-width: 375px) and (max-width: 480px) {
-  .game-info {
-    font-size: 14px;
-  }
-
-  .square {
-    width: 80px; /* Ajusta el ancho según tus preferencias */
-    height: 80px; /* Ajusta la altura según tus preferencias */
-    padding: 10px;
-    background: #f7f75f;
-    border-radius: 15px;
-    border: 2px solid #524814;
-    margin: 1px;
-    font-size: 25px;
-    color: #524814;
-    margin-top: 10px;
-    margin-right: 10px; /* Añade margen derecho para espaciar los cuadros */
-  }
-
-  .game-board {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .square {
-    margin-right: 10px; /* Espaciado entre los cuadros */
-    margin-bottom: 10px; /* Espaciado entre las filas */
-  }
-}
-
-
-
-/* Estilos para tablet (481px a 768px) */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .game-info {
-    font-size: 16px;
-  }
-}
-
-/* Estilos para desktop (769px a 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .game-info {
-    font-size: 18px;
-  }
-}
